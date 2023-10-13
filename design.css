@@ -139,3 +139,25 @@ p.ac2{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
+
+#scrollTopButton {
+    position: fixed;
+    bottom: 2px;
+    right: 3px;
+    z-index: 1; /* Assure que le bouton est au-dessus du contenu */
+    background: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  #scrollTopButton:hover {
+    background-color: #0057b300;
+  }
+  img.retour{
+    width: 10px;
+    opacity: calc(50%);
+  }
